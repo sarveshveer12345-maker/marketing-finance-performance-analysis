@@ -125,62 +125,26 @@ These calculations enabled the creation of KPIs such as revenue, profit, marketi
 
 ### Calculated Columns 
 
-The following calculated columns were created to derive financial metrics from the base dataset.
-
-
-**Gross Revenue**
-
-Gross Revenue = 
-
+Gross Revenue =
 Marketing_Finance_Project_clean[Units] *
 Marketing_Finance_Project_clean[UnitPrice]
 
-Calculates the total revenue generated before applying discounts.
-
-
-
-**Discount Amount**
-
 Discount Amount =
-
 Marketing_Finance_Project_clean[Gross Revenue] *
 Marketing_Finance_Project_clean[DiscountPct]
 
-Calculates the discount applied to each order.
-
-
-
-**Net Revenue**
-
 Net Revenue =
-
 Marketing_Finance_Project_clean[Gross Revenue] -
 Marketing_Finance_Project_clean[Discount Amount]
 
-Represents the actual revenue earned after discounts.
-
-
-
-**Total COGS**
-
 Total COGS =
-
 Marketing_Finance_Project_clean[Units] *
 Marketing_Finance_Project_clean[COGS_per_unit]
 
-Calculates the total cost of goods sold for each order.
-
-
-
-**Profit**
-
 Profit =
-
 Marketing_Finance_Project_clean[Net Revenue] -
 Marketing_Finance_Project_clean[Total COGS] -
 Marketing_Finance_Project_clean[MarketingCost]
-
-Represents the final profit after subtracting product costs and marketing expenses.
 
 
 
