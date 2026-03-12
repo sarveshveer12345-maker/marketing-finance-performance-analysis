@@ -292,7 +292,7 @@ The finance dashboard provides financial insights including:
 
 ---
 
-## Finance Dashboard
+## Business Problems Addressed 
 
 The financial dashboard addresses:
 
