@@ -283,6 +283,10 @@ Calculates the average revenue generated per order.
 
 # Marketing Campaign Performance Dashboard
 
+
+![Marketing Dashboard](marketing_campaign_performance_dashboard.png)
+
+
 ## Key Metrics
 
 - Total Net Revenue: 197K
@@ -342,6 +346,10 @@ Marketing Recommendations
 ---
 
 # Financial Profitability Analysis Dashboard
+
+ 
+![Finance Dashboard](financial_profitability_analysis_dashboard.png) 
+
 
 ## Key Metrics
 
