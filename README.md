@@ -47,7 +47,7 @@ The key objectives of this analysis are:
 
 Below is a preview of the dataset used in the analysis.
 
-![Dataset Preview](images/dataset_preview.png)
+![Dataset Preview](dataset_preview.png)
 
 ---
 
