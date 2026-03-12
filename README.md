@@ -217,11 +217,11 @@ DIVIDE([TotalNetRevenue], [TotalOrders])
 
 The marketing dashboard analyzes campaign performance through:
 
-- Revenue by marketing channel
+- Revenue by channel
 - Revenue by campaign
+- Revenue by payment status 
 - Revenue trend over time
 - Revenue share by channel
-- Payment status analysis
 
 ---  
 
@@ -231,9 +231,10 @@ Marketing Dashboard
 
 The dashboard answers key marketing questions:
 
-- Which marketing channels generate the highest revenue?
-- Which campaigns deliver the best performance?
-- How does marketing spending translate into revenue?
+- Which marketing channel generate the highest revenue?
+- Which campaign deliver the best performance?
+- What are the monthly revenue trends over time?
+- What is the payment success rate across all orders?
 - Which channels contribute the largest share of sales?
 
 ---
@@ -244,9 +245,9 @@ Marketing Insights
 
 - Instagram Ads generate the highest revenue (~75K), making it the most effective marketing channel.
 - Retargeting Push campaign delivers the highest campaign revenue (~60K).
-- Marketing channels contribute differently, with social media advertising dominating revenue share.
 - Revenue declined significantly in March, indicating potential seasonal demand changes or campaign performance issues.
 - 75% of transactions are successfully paid, indicating strong payment completion rates.
+- Marketing channels contribute differently, with social media advertising dominating revenue share.
 
 --- 
 
@@ -254,10 +255,11 @@ Marketing Insights
 
 Marketing Recommendations
 
-- Increase investment in Instagram Ads, as it generates the highest revenue.
-- Expand retargeting campaigns, which show strong performance.
-- Investigate the March revenue decline to identify seasonal patterns or campaign issues.
-- Optimize marketing spend by focusing on channels with higher ROAS.
+- Increase budget allocation toward Instagram Ads and replicate successful campaign strategies across other high-potential channels.
+- Expand retargeting campaigns to re-engage previous visitors and customers, as they show strong conversion potential.
+- Investigate campaign performance and seasonal patterns in March and adjust marketing strategies to stabilize revenue during low-performing periods.
+- Improve payment success rates further by optimizing checkout experience and addressing causes of failed or pending transactions.
+- Continuously monitor channel performance and rebalance marketing investments toward high-performing channels while optimizing underperforming ones.
 
 ---
 
@@ -275,6 +277,7 @@ Marketing Recommendations
 - Profit Margin: 53%
 - Total Profit: 104.64K
 - Average Order Value: 3.29K
+- Total COGS: 60K
 
 ---
 
@@ -285,7 +288,7 @@ The finance dashboard provides financial insights including:
 - Profit by product category
 - Profit by city
 - Profit trend over time
-- Profit distribution by payment method
+- Profit by payment method
 - Net revenue by payment status
 
 ---
@@ -294,10 +297,10 @@ The finance dashboard provides financial insights including:
 
 The financial dashboard addresses:
 
-- Which products generate the most profit?
+- Which product generate the most profit?
 - Which cities contribute the highest profitability?
 - How does profit change over time?
-- How do payment methods affect revenue distribution?
+- Which payment methods affect revenue distribution?
 
 ---
 
@@ -343,7 +346,6 @@ Financial Recommendations
 ## Skills Demonstrated
 
 - Data Cleaning
-- Feature Engineering
 - Data Transformation
 - Dashboard Development
 - DAX Calculations
@@ -380,7 +382,7 @@ marketing-finance-performance-analysis
 ├── README.md
 │
 ├── data
-│   ├── marketing_finance_raw_dataset.xlsx
+│   ├── marketing_finance_raw_data.xlsx
 │   └── marketing_finance_clean_dataset.xlsx
 │
 ├── notebooks
@@ -391,8 +393,8 @@ marketing-finance-performance-analysis
 │
 ├── images
 │   ├── dataset_preview.png
-│   ├── marketing_dashboard.png
-│   └── finance_dashboard.png
+│   ├── marketing_campaign_performance_dashboard.png
+│   └── marketing_finance_analytics_dashboard.png
 
 --- 
 
