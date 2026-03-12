@@ -412,17 +412,17 @@ Financial Recommendations
 
 ## Tools Used
 
-**Python** - Data cleaning and preprocessing
+- **Python** - Data cleaning and preprocessing
 
-**Google Colab** - Python notebook environment
+- **Google Colab** - Python notebook environment
 
-**Microsoft Excel** - Dataset storage and documentation
+- **Microsoft Excel** - Dataset storage and documentation
 
-**Microsoft Power BI** - Dashboard development
+- **Microsoft Power BI** - Dashboard development
 
-**Power Query** - Data transformation in Power BI
+- **Power Query** - Data transformation in Power BI
 
-**DAX** - KPI and metric calculations 
+- **DAX** - KPI and metric calculations 
 
 ---
 
