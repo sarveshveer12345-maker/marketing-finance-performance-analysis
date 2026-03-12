@@ -281,6 +281,8 @@ Calculates the average revenue generated per order.
 
 ---
 
+
+
 # Marketing Campaign Performance Dashboard
 
 
@@ -345,6 +347,8 @@ Marketing Recommendations
 
 ---
 
+
+
 # Financial Profitability Analysis Dashboard
 
  
@@ -372,15 +376,14 @@ The finance dashboard provides financial insights including:
 
 ---
 
-## Finance Dashboard Features
+## Finance Dashboard
 
-The finance dashboard provides financial insights including:
+The financial dashboard addresses:
 
-- Profit by product category
-- Profit by city
-- Profit trend over time
-- Profit distribution by payment method
-- Net revenue by payment status
+- Which products generate the most profit?
+- Which cities contribute the highest profitability?
+- How does profit change over time?
+- How do payment methods affect revenue distribution?
 
 ---
 
