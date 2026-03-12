@@ -77,15 +77,11 @@ The dataset contains marketing campaign, customer, and transaction-level sales d
 
 Additional financial metrics such as:
 
-Gross Revenue
-
-Discount Amount
-
-Net Revenue
-
-Total COGS
-
-Profit
+- Gross Revenue
+- Discount Amount
+- Net Revenue
+- Total COGS
+- Profit
 
 were derived later using Power Query in Microsoft Power BI to support deeper financial analysis in the dashboards.
 
