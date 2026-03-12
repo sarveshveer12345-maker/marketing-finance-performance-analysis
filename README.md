@@ -47,7 +47,7 @@ The key objectives of this analysis are:
 
 Below is a preview of the dataset used in the analysis.
 
-
+![Dataset Preview](images/dataset_preview.png)
 
 ---
 
@@ -436,17 +436,15 @@ Financial Recommendations
     
 2. Data Cleaning (Python – Google Colab)
       
-3. Feature Engineering
+3. Clean Dataset Export
       
-4. Clean Dataset Export
+4. Power Query Transformations
       
-5. Power BI Data Modeling
-      
-6. DAX Measures
+5. DAX Calculations
     
-7. Interactive Dashboards
+6. Power BI Dashboards
       
-8. Business Insights & Recommendations
+7. Business Insights & Recommendations
 
 ---
 
