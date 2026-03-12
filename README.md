@@ -146,7 +146,7 @@ Marketing_Finance_Project_clean[Units] *
 Marketing_Finance_Project_clean[COGS_per_unit]
 
 
-**Profit** =
+- **Profit** =
 Marketing_Finance_Project_clean[Net Revenue] -
 Marketing_Finance_Project_clean[Total COGS] -
 Marketing_Finance_Project_clean[MarketingCost]
