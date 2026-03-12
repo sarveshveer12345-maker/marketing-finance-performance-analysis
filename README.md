@@ -394,7 +394,7 @@ marketing-finance-performance-analysis
 ├── images
 │   ├── dataset_preview.png
 │   ├── marketing_campaign_performance_dashboard.png
-│   └── marketing_finance_analytics_dashboard.png
+│   └── financial_profitability_analysis_dashboard.png
 
 --- 
 
@@ -414,7 +414,7 @@ dataset_preview.png – Screenshot preview of the dataset used for analysis.
 
 marketing_campaign_performance_dashboard.png – Screenshot of the Marketing Performance Dashboard built in Power BI.
 
-finance_dashboard.png – Screenshot of the Financial Performance Dashboard highlighting profitability insights.
+financial_profitability_analysis_dashboard.png – Screenshot of the Financial Performance Dashboard highlighting profitability insights.
 
 ---
 
