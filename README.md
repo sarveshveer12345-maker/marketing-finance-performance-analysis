@@ -122,8 +122,6 @@ These transformations enabled accurate financial analysis in the dashboards.
 
 To support marketing and financial analysis, several calculated columns and DAX measures were created in Power BI.
 
-These calculations enabled the creation of KPIs such as revenue, profit, marketing efficiency, and profitability metrics.
-
 
 ### Calculated Columns 
 
