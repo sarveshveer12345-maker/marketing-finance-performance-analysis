@@ -128,27 +128,27 @@ These calculations enabled the creation of KPIs such as revenue, profit, marketi
 ### Calculated Columns 
 
 
-Gross Revenue =
+**Gross Revenue** =
 Marketing_Finance_Project_clean[Units] *
 Marketing_Finance_Project_clean[UnitPrice]
 
 
-Discount Amount =
+**Discount Amount** =
 Marketing_Finance_Project_clean[Gross Revenue] *
 Marketing_Finance_Project_clean[DiscountPct]
 
 
-Net Revenue =
+**Net Revenue** =
 Marketing_Finance_Project_clean[Gross Revenue] -
 Marketing_Finance_Project_clean[Discount Amount]
 
 
-Total COGS =
+**Total COGS** =
 Marketing_Finance_Project_clean[Units] *
 Marketing_Finance_Project_clean[COGS_per_unit]
 
 
-Profit =
+**Profit** =
 Marketing_Finance_Project_clean[Net Revenue] -
 Marketing_Finance_Project_clean[Total COGS] -
 Marketing_Finance_Project_clean[MarketingCost]
@@ -159,39 +159,39 @@ Marketing_Finance_Project_clean[MarketingCost]
 The following DAX measures were created to calculate key performance indicators used across the dashboards.
 
 
-TotalNetRevenue =
+**TotalNetRevenue** =
 SUM(Marketing_Finance_Project_clean[Net Revenue])
 
 
-TotalProfit =
+**TotalProfit** =
 SUM(Marketing_Finance_Project_clean[Profit])
 
 
-TotalMarketingCost =
+**TotalMarketingCost** =
 SUM(Marketing_Finance_Project_clean[MarketingCost])
 
 
-TotalOrders =
+**TotalOrders** =
 DISTINCTCOUNT(Marketing_Finance_Project_clean[OrderID])
 
 
-TotalUnits =
+**TotalUnits** =
 SUM(Marketing_Finance_Project_clean[Units])
 
 
-TotalCOGS =
+**TotalCOGS** =
 SUM(Marketing_Finance_Project_clean[Total COGS])
 
 
-ROAS =
+**ROAS** =
 DIVIDE([TotalNetRevenue], [TotalMarketingCost])
 
 
-ProfitMargin% =
+**ProfitMargin%** =
 DIVIDE([TotalProfit], [TotalNetRevenue])
 
 
-AvgOrderValue =
+**AvgOrderValue** =
 DIVIDE([TotalNetRevenue], [TotalOrders])
 
 
