@@ -459,6 +459,49 @@ Financial Recommendations
 
 ---
 
+## Project Structure
+
+marketing-finance-performance-analysis
+│
+├── README.md
+│
+├── data
+│   ├── marketing_finance_raw_dataset.xlsx
+│   └── marketing_finance_clean_dataset.xlsx
+│
+├── notebooks
+│   └── marketing_finance_data_cleaning.ipynb
+│
+├── dashboard
+│   └── marketing_finance_analytics_dashboard.pbix
+│
+├── images
+│   ├── dataset_preview.png
+│   ├── marketing_dashboard.png
+│   └── finance_dashboard.png
+
+--- 
+
+## Repository Structure
+
+README.md – Project documentation explaining the business context, objectives, analysis workflow, dashboards, and key business insights.
+
+marketing_finance_raw_dataset.xlsx – Original dataset containing marketing campaigns, product sales, customer details, and transaction records.
+
+marketing_finance_clean_dataset.xlsx – Cleaned dataset prepared after handling missing values, formatting issues, and data inconsistencies using Python.
+
+marketing_finance_data_cleaning.ipynb – Jupyter Notebook used for data cleaning, preprocessing, and preparing the dataset for analysis.
+
+marketing_finance_analytics_dashboard.pbix – Power BI dashboard file containing the marketing performance and financial analysis reports.
+
+dataset_preview.png – Screenshot preview of the dataset used for analysis.
+
+marketing_dashboard.png – Screenshot of the Marketing Performance Dashboard built in Power BI.
+
+finance_dashboard.png – Screenshot of the Financial Performance Dashboard highlighting profitability insights.
+
+---
+
 ## How to Use
 
 1. Download or clone the repository.
