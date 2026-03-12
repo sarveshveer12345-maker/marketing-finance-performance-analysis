@@ -128,66 +128,30 @@ These calculations enabled the creation of KPIs such as revenue, profit, marketi
 ### Calculated Columns 
 
 
-**Gross Revenue**
-
-Gross Revenue = 
-
+Gross Revenue =
 Marketing_Finance_Project_clean[Units] *
-
 Marketing_Finance_Project_clean[UnitPrice]
 
-Calculates the total revenue generated before applying discounts.
-
-
-
-**Discount Amount**
 
 Discount Amount =
-
 Marketing_Finance_Project_clean[Gross Revenue] *
-
 Marketing_Finance_Project_clean[DiscountPct]
 
-Calculates the discount applied to each order.
-
-
-
-**Net Revenue**
 
 Net Revenue =
-
 Marketing_Finance_Project_clean[Gross Revenue] -
-
 Marketing_Finance_Project_clean[Discount Amount]
 
-Represents the actual revenue earned after discounts.
-
-
-
-**Total COGS**
 
 Total COGS =
-
 Marketing_Finance_Project_clean[Units] *
-
 Marketing_Finance_Project_clean[COGS_per_unit]
 
-Calculates the total cost of goods sold for each order.
-
-
-
-**Profit**
 
 Profit =
-
 Marketing_Finance_Project_clean[Net Revenue] -
-
 Marketing_Finance_Project_clean[Total COGS] -
-
 Marketing_Finance_Project_clean[MarketingCost]
-
-Represents the final profit after subtracting product costs and marketing expenses.
-
 
 
 ### DAX Measures (KPIs)
@@ -195,94 +159,40 @@ Represents the final profit after subtracting product costs and marketing expens
 The following DAX measures were created to calculate key performance indicators used across the dashboards.
 
 
-
-**Total Net Revenue**
-
 TotalNetRevenue =
-
 SUM(Marketing_Finance_Project_clean[Net Revenue])
 
-Calculates total revenue generated after discounts.
-
-
-
-**Total Profit**
 
 TotalProfit =
-
 SUM(Marketing_Finance_Project_clean[Profit])
 
-Calculates total profit across all orders.
-
-
-
-**Total Marketing Cost**
 
 TotalMarketingCost =
-
 SUM(Marketing_Finance_Project_clean[MarketingCost])
 
-Represents the total marketing investment.
-
-
-
-**Total Orders**
 
 TotalOrders =
-
 DISTINCTCOUNT(Marketing_Finance_Project_clean[OrderID])
 
-Counts the total number of unique customer orders.
-
-
-
-**Total Units**
 
 TotalUnits =
-
 SUM(Marketing_Finance_Project_clean[Units])
 
-Represents the total quantity of products sold.
-
-
-
-**Total COGS**
 
 TotalCOGS =
-
 SUM(Marketing_Finance_Project_clean[Total COGS])
 
-Calculates the total cost of goods sold.
-
-
-
-**Return on Advertising Spend (ROAS)**
 
 ROAS =
-
 DIVIDE([TotalNetRevenue], [TotalMarketingCost])
 
-Measures the revenue generated for every unit of marketing spend.
-
-
-
-**Profit Margin %**
 
 ProfitMargin% =
-
 DIVIDE([TotalProfit], [TotalNetRevenue])
 
-Indicates the percentage of revenue retained as profit.
-
-
-
-**Average Order Value**
 
 AvgOrderValue =
-
 DIVIDE([TotalNetRevenue], [TotalOrders])
-
-Calculates the average revenue generated per order.
 
 
 ---
