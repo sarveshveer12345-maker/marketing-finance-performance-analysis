@@ -9,8 +9,8 @@ The analysis combines Python-based data cleaning with Power BI dashboards to tra
 
 The final solution includes two interactive dashboards:
 
-- Marketing Performance Dashboard – evaluates campaign effectiveness and marketing ROI
-- Financial Performance Dashboard – analyzes revenue, costs, and profitability
+- Marketing Campaign Performance Dashboard – evaluates campaign effectiveness and marketing ROI
+- Financial Profitability Analysis Dashboard – analyzes revenue, costs, and profitability
    
 These dashboards help stakeholders understand which campaigns perform well, where money is being spent, and how marketing activities influence overall profitability.
 
