@@ -376,7 +376,7 @@ Financial Recommendations
 ---
 
 ## Project Structure
-
+```
 marketing-finance-performance-analysis
 │
 ├── README.md
@@ -395,7 +395,7 @@ marketing-finance-performance-analysis
 │   ├── dataset_preview.png
 │   ├── marketing_campaign_performance_dashboard.png
 │   └── financial_profitability_analysis_dashboard.png
-
+```
 --- 
 
 ## Repository Structure
