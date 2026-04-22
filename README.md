@@ -318,7 +318,7 @@ The finance dashboard provides financial insights including:
 
 The financial dashboard addresses:
 
-- Which product generate the most profit?
+- Which product generates the most profit?
 - Which cities contribute the highest profitability?
 - How does profit change over time?
 - Which payment methods affect revenue distribution?
@@ -344,7 +344,7 @@ Financial Recommendations
 - Focus on promoting high-profit products like E-books and SAP courses.
 - Expand marketing efforts in high-performing cities such as Hubli and Pune.
 - Maintain strong profit margins by carefully managing discount strategies.
-- Encourage digital payment methods to improve transaction efficiency.
+- Optimize checkout experience around dominant payment methods (UPI and card) to reduce friction and improve conversion rates.
 
 ---
 
@@ -395,7 +395,7 @@ If these recommendations are implemented, the business can:
 
 ## Risk & Limitations
 
-- The dataset does not include customer acquisition cost at a granular level across all channels, limiting deeper ROI comparison
+- The dataset does not include customer acquisition cost at a granular level across all channels, limiting deeper marketing efficiency (ROAS) comparison
 - Customer lifetime value (LTV) is not available, restricting long-term profitability analysis
 - External factors such as market competition, campaign timing, and demand fluctuations are not captured
 - The analysis is based on a limited dataset and should be interpreted as directional rather than conclusive
