@@ -10,7 +10,7 @@ The analysis combines Python-based data cleaning with Power BI dashboards to tra
 
 The final solution includes two interactive dashboards:
 
-- Marketing Campaign Performance Dashboard – evaluates campaign effectiveness and marketing ROI
+- Marketing Campaign Performance Dashboard – evaluates campaign effectiveness and marketing efficiency
 - Financial Profitability Analysis Dashboard – analyzes revenue, costs, and profitability
    
 These dashboards help stakeholders understand which campaigns perform well, where money is being spent, and how marketing activities influence overall profitability.
@@ -19,7 +19,7 @@ These dashboards help stakeholders understand which campaigns perform well, wher
 
 ## Executive Summary
 
-This project analyzes marketing campaign performance alongside financial outcomes to evaluate not just revenue generation, but whether marketing investments translate into profitable growth.
+This project analyzes marketing campaign performance alongside financial outcomes to evaluate not just revenue generation, but whether marketing investments translate into profitable growth using metrics such as ROAS and profit margin.
 
 The analysis reveals that while certain channels such as Instagram Ads and retargeting campaigns drive a significant share of revenue, profitability is influenced by multiple factors including marketing costs, discounting strategies, and product-level margins.
 
@@ -61,7 +61,7 @@ The key objectives of this analysis are:
 - Understand customer purchasing behavior
 - Identify profitable products and locations
 - Analyze profit trends and financial performance
-- Provide actionable recommendations to improve ROI
+- Provide actionable recommendations to improve marketing efficiency
 
 ---
 
@@ -253,8 +253,8 @@ Marketing Dashboard
 
 The dashboard answers key marketing questions:
 
-- Which marketing channel generate the highest revenue?
-- Which campaign deliver the best performance?
+- Which marketing channel generates the highest revenue?
+- Which campaign delivers the best performance?
 - What are the monthly revenue trends over time?
 - What is the payment success rate across all orders?
 - Which channels contribute the largest share of sales?
@@ -279,7 +279,7 @@ Marketing Recommendations
 
 - Increase budget allocation toward Instagram Ads and replicate successful campaign strategies across other high-potential channels.
 - Expand retargeting campaigns to re-engage previous visitors and customers, as they show strong conversion potential.
-- Investigate campaign performance and seasonal patterns in March and adjust marketing strategies to stabilize revenue during low-performing periods.
+- Investigate campaign performance changes in March and identify potential drivers (campaign changes, demand variation, or operational issues).
 - Analyze failure reasons in payment processing and optimize the checkout flow to improve conversion rates.
 - Continuously monitor channel performance and rebalance marketing investments toward high-performing channels while optimizing underperforming ones.
 
@@ -362,7 +362,7 @@ The findings highlight the importance of aligning marketing decisions with finan
 
 ## Key Analytical Observations
 
-- High ROAS (6.04) indicates efficient revenue generation, but must be evaluated alongside profit to ensure true ROI
+- High ROAS (6.04) indicates efficient revenue generation, but must be evaluated alongside profit to ensure true profitability beyond ROAS
 - Strong profit margin (53%) suggests effective pricing and cost control, but may be influenced by specific high-performing categories
 - Marketing cost impact varies across channels, meaning not all high-revenue channels are equally efficient
 - Discounts directly affect profitability, indicating a trade-off between conversion and margin
