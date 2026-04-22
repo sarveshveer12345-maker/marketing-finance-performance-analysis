@@ -3,7 +3,8 @@
 ## Project Overview
 
 Marketing teams invest heavily in campaigns, but understanding whether those campaigns actually generate profitable results is a major business challenge.
-This project analyses marketing campaign performance and financial outcomes to uncover insights related to revenue generation, profitability, and marketing efficiency.
+
+This project analyzes marketing campaign performance and financial outcomes to uncover insights related to revenue generation, profitability, and marketing efficiency.
 
 The analysis combines Python-based data cleaning with Power BI dashboards to transform raw marketing and financial data into actionable business insights.
 
@@ -265,7 +266,7 @@ The dashboard answers key marketing questions:
 Marketing Insights
 
 - Instagram Ads contribute the highest share of revenue (75K), making it the most effective marketing channel.
-- Retargeting Push campaign contributes the highest revenue among campaigns (60K).
+- Retargeting Push campaign appears as the highest revenue-contributing campaign (60K).
 - Revenue declined in March, indicating a potential drop in campaign performance or demand during that period.
 - 75% of transactions are successfully paid, indicating strong payment completion rates.
 - Marketing channels contribute differently, with social media advertising dominating revenue share.
@@ -384,7 +385,7 @@ To achieve sustainable growth, the business must shift from channel-level revenu
 
 If these recommendations are implemented, the business can:
 
-- Improve marketing efficiency by reallocating budget toward high-performing and cost-efficient channels.
+- Improve marketing efficiency by reallocating budget toward channels that demonstrate both strong revenue contribution and cost efficiency.
 - Increase profitability by optimizing discount strategies and reducing unnecessary cost leakage.
 - Drive higher revenue from existing campaigns through better targeting and retargeting strategies.
 - Reduce dependency on a limited number of high-performing campaigns and diversify revenue sources.
@@ -396,7 +397,7 @@ If these recommendations are implemented, the business can:
 
 - The dataset does not include customer acquisition cost at a granular level across all channels, limiting deeper ROI comparison
 - Customer lifetime value (LTV) is not available, restricting long-term profitability analysis
-- External factors such as seasonality, competition, and campaign timing are not captured
+- External factors such as market competition, campaign timing, and demand fluctuations are not captured
 - The analysis is based on a limited dataset and should be interpreted as directional rather than conclusive
 - Campaign performance drivers (creative quality, targeting strategy, audience segmentation) are not included
 
